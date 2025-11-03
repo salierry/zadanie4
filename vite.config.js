@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/zadanie4/',
+  root: '.',
+  publicDir: 'public',
+  base: '/zadanie4/', 
   build: {
     outDir: 'dist',
     emptyOutDir: true
