@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/web2025-react/static/css/main.ef15ad7d.css",
-    "main.js": "/web2025-react/static/js/main.a202d7b3.js",
-    "index.html": "/web2025-react/index.html",
-    "main.ef15ad7d.css.map": "/web2025-react/static/css/main.ef15ad7d.css.map",
-    "main.a202d7b3.js.map": "/web2025-react/static/js/main.a202d7b3.js.map"
+    "main.css": "/zadanie4/static/css/main.ef15ad7d.css",
+    "main.js": "/zadanie4/static/js/main.9830bc0d.js",
+    "index.html": "/zadanie4/index.html",
+    "main.ef15ad7d.css.map": "/zadanie4/static/css/main.ef15ad7d.css.map",
+    "main.9830bc0d.js.map": "/zadanie4/static/js/main.9830bc0d.js.map"
   },
   "entrypoints": [
     "static/css/main.ef15ad7d.css",
-    "static/js/main.a202d7b3.js"
+    "static/js/main.9830bc0d.js"
   ]
 }
