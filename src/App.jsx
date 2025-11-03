@@ -3,6 +3,11 @@ import { Layout, Table, Form, Input, Button, Select, DatePicker, Radio, Checkbox
 import { PhoneOutlined, MailOutlined, UserOutlined, CalendarOutlined } from '@ant-design/icons';
 import './App.css';
 
+// ИМПОРТЫ ИЗОБРАЖЕНИЙ
+import kguLogo from './img/KGU.png';
+import imagePic from './img/image.jpg';
+import kartinkaPic from './img/kartinka.jpg';
+
 const { Header, Content, Footer } = Layout;
 const { Option } = Select;
 const { TextArea } = Input;
@@ -113,7 +118,8 @@ const App = () => {
       <Header className="header">
         <div className="header-content">
           <div className="logo-title">
-            <img src="./img/KGU.png" alt="Логотип" className="logo" />
+            {/* ИСПРАВЛЕННЫЙ ПУТЬ */}
+            <img src={kguLogo} alt="Логотип" className="logo" />
             <h1 className="site-title">Задание 4</h1>
           </div>
           
@@ -142,7 +148,8 @@ const App = () => {
                 <a href="http://kubsu.ru/">КубГУ (http)</a>
                 <a href="https://kubsu.ru/">КубГУ (https)</a>
                 <a href="https://kubsu.ru/">
-                  <img src="./img/image.jpg" alt="Картинка" className="responsive-image" />
+                  {/* ИСПРАВЛЕННЫЙ ПУТЬ */}
+                  <img src={imagePic} alt="Картинка" className="responsive-image" />
                 </a>
                 <a href="./Catalog/second-page.html">Сокращённая внутренняя</a>
                 <a href="./MainPage.html">Сокращённая главная</a>
@@ -165,7 +172,8 @@ const App = () => {
                     <area shape="rect" coords="35,35,350,190" href="https://kubsu.ru" alt="Сайт кубгу, прямоугольник" />
                     <area shape="circle" coords="180,375,125" href="https://kubsu.ru/index.php" alt="Сайт кубгу, круг" />
                   </map>
-                  <img src="./img/kartinka.jpg" useMap="#kartinka" alt="Картинка" className="map-image" />
+                  {/* ИСПРАВЛЕННЫЙ ПУТЬ */}
+                  <img src={kartinkaPic} useMap="#kartinka" alt="Картинка" className="map-image" />
                 </div>
 
                 <a href="">Пустой href</a>
@@ -184,6 +192,7 @@ const App = () => {
             </div>
           </div>
 
+          {/* Остальной код без изменений */}
           <div id="table" className="section table-section">
             <div className="section-content">
               <h2>Таблица данных</h2>
@@ -211,6 +220,7 @@ const App = () => {
                 className="custom-form"
                 validateTrigger="onBlur"
               >
+                {/* Форма без изменений */}
                 <Form.Item
                   label="ФИО"
                   name="fio"
