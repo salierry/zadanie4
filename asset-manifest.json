@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/web2025-react/static/css/main.ef15ad7d.css",
+    "main.js": "/web2025-react/static/js/main.a202d7b3.js",
+    "index.html": "/web2025-react/index.html",
+    "main.ef15ad7d.css.map": "/web2025-react/static/css/main.ef15ad7d.css.map",
+    "main.a202d7b3.js.map": "/web2025-react/static/js/main.a202d7b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef15ad7d.css",
+    "static/js/main.a202d7b3.js"
+  ]
+}
